@@ -10,4 +10,5 @@
    a = models.ForeignKey(A, on_delete=models.DO_NOTHING)
   ```
 - Queryset
+
 如果一次性循环大量数据，可用iterator(), 避免占用大量内存
