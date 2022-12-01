@@ -15,6 +15,11 @@
 
 > django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module. Did you install mysqlclient?
 
-`pip install --force-reinstall --ignore-installed --no-binary :all: mysqlclient`
+```
+pip install --force-reinstall --ignore-installed --no-binary :all: mysqlclient
+
+pip install mysql-python
+apt-get install python3-mysqldb libmysqlclient-dev python-dev
+```
 
 > 安装python外源包时，如mysqlclient，需安装python-dev
