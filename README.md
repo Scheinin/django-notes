@@ -12,3 +12,9 @@
 - Queryset
 
 如果一次性循环大量数据，可用iterator(), 避免占用大量内存
+
+> django.core.exceptions.ImproperlyConfigured: Error loading MySQLdb module. Did you install mysqlclient?
+
+`pip install --force-reinstall --ignore-installed --no-binary :all: mysqlclient`
+
+> 安装python外源包时，如mysqlclient，需安装python-dev
